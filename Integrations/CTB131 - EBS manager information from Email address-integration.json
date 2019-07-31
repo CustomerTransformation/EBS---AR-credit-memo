@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5c61546f43c75",
+        "Name": "CTB131 - EBS manager information from Email address",
+        "Type": "DATABASE",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "z Global",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"systemID\":\"5775256573991\",\"systemName\":\"CodeTables\",\"query\":\"EXEC\\tManagerInformationFromEMPemail\\n\\t\\t@email = {emailAddress}\",\"results_page_columns_db\":\"\",\"secure_fields_db_database\":\"\",\"escapeTokens\":\"yes\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
+    }
+]

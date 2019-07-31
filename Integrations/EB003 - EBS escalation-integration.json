@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5c65835de6a1f",
+        "Name": "EB003 - EBS escalation",
+        "Type": "ESCALATION",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Finance",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"escalation_action\":\"stage\",\"process\":\"AF-Process-3e334bf2-83ba-4881-b412-f719c6213192\",\"stage\":\"AF-Stage-10f0344b-8a20-44a2-beaf-7517a6680f4a\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"Daniela.Dutu@portsmouthcc.gov.uk\"}"
+    }
+]

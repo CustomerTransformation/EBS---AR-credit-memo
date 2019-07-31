@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5cc978e9c7f1c",
+        "Name": "EB050 - pdf with concSummary and carry notes in capital letters",
+        "Type": "PRINTABLE",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Finance",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"name\":\"{reference}\",\"remove_margins\":\"\",\"setPaperType\":\"a4\",\"content\":\"<style type=\\\"text/css\\\"><!--\\nbody {\\n     font-family: arial, helvetica, sans-serif;\\n}\\ntable{\\n    font-family: arial, helvetica, sans-serif;\\n}\\ntable.PCCfieldsT{\\n    width: 100%;\\n}\\n.PCCfieldsT tr td:nth-child(1) {\\n    font-family: arial, helvetica, sans-serif;\\n    width: 45%;\\n    vertical-align:top;\\n    padding: 5px 15px 5px 0px; /* top right bottom left */\\n}\\n.PCCfieldsT tr td:nth-child(2) {\\n    font-family: arial, helvetica, sans-serif;\\n    width: 55%;\\n    padding: 5px 0px;\\n    /* white-space: pre-wrap; */\\n}\\n-->\\n</style>\\n<div arial=\\\"\\\" font-family:=\\\"\\\" helvetica=\\\"\\\" sans-serif=\\\"\\\" style=\\\"text-transform: uppercase;\\\">{#PDF_Top_Logo}\\n<div>&nbsp;<br />\\n&nbsp;<br />\\n&nbsp;</div>\\n\\n<div>{#PDF_Top_Logo}</div>\\n\\n<div>&nbsp;<br />\\n&nbsp;<br />\\n&nbsp;</div>\\n\\n<h1><span style=\\\"text-decoration: underline;\\\">{process_name}({case_ref})</span></h1>\\n\\n<div>{#concSummary}</div>\\n\\n<div>{#carryNotes}</div>\\n</div>\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"Daniela.Dutu@portsmouthcc.gov.uk\"}"
+    }
+]
