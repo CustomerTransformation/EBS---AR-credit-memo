@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5ec4e571d1118",
+        "Name": "EB002 - email to the customer in MEMO if form escalates",
+        "Type": "EMAIL",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Finance",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"subject\":\"{process_name} form has escalated\",\"fromName\":\"{NoReplyEmail_N} \",\"from\":\"{NoReplyEmail}\",\"recipients_to\":\"{emailAddress}\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"\",\"body\":\"<div style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt; white-space: pre-wrap;\\\">\\n<div>Dear {fullName},</div>\\n\\n<div></div>\\n\\n<p>Your {process_name} form, reference {case_ref} has escalated to {manager2Email}.</p>\\n\\n<p>Reason: not approved within 10 working days.</p>\\n\\n<div></div>\\n\\n<p>Yours sincerely,</p>\\n\\n<p>Portsmouth City Council</p>\\n</div>\",\"attachments\":\"\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"Daniela.Dutu@portsmouthcc.gov.uk\"}"
+    }
+]
